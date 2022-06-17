@@ -1,0 +1,55 @@
+.post {
+  width: 70%;
+  margin-left: 5%;
+}
+
+.fixed {
+  table-layout: fixed;
+  overflow: hidden;
+  width: 1000px !important;
+}
+
+@media screen and (max-width:1366px){
+  .table-holder3{
+    position: relative;
+    right: 40px !important;
+  }
+  
+}
+
+.header-position1{
+  position: relative;
+  right: 65px;
+}
+
+tr{
+  width: 100px !important;
+}
+
+.wrap{
+  width: 100% !important
+  ;
+}
+
+.overflow{
+  
+
+  height: 100px !important;
+  overflow-y: auto !important;
+  /* overflow-x: auto !important; */
+  word-wrap: break-word;
+  
+
+}
+
+
+td{
+  height: 50px !important;
+}
+
+.content-holder{
+  height: 100px !important;
+}
+
+
+

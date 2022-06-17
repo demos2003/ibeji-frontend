@@ -1,0 +1,70 @@
+.sponsor-card {
+    margin-bottom: 100px;
+  }
+  .sponsor-card h1 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #737272;
+  }
+  .sponsor-card img {
+    width: 146.35px;
+    height: 168.2px;
+    left: 0px;
+    top: 1.4px;
+  }
+  .sponsor-card-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    width: 993.09px;
+    height: 169.6px;
+    margin-bottom: 27px;
+
+  }
+
+  @media screen and (max-width:768px) {
+    .sponsor-card-images{
+      display: flex;
+      flex-wrap: wrap;
+      width: 700px;
+      margin-bottom: 250px;
+    }
+
+
+  }
+
+  @media screen and (max-width:425px) {
+    .sponsor-card-images{
+      display: flex;
+      flex-wrap: wrap;
+      width: 400px;
+      margin-top: 40px;
+      /* margin-bottom: 650px; */
+    }
+
+    .sponsor-card{
+      margin-bottom: 700px;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    .sponsor-card-images{
+      display: flex;
+      flex-wrap: wrap;
+      width: 200px;
+      margin-top: 40px;
+      /* margin-bottom: 650px; */
+    }
+
+    
+  }
+  
+
+  @media screen and (max-width:320px) {
+    .sponsor-card{
+      margin-bottom: 800px !important;
+    }
+    
+  }
